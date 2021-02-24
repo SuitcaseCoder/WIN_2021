@@ -1,0 +1,264 @@
+body {
+  margin: auto 50px;
+}
+
+h1 {
+  font-size: 50px;
+  color: blue;
+}
+
+h1:hover {
+  color: palevioletred;
+}
+
+h2 {
+  color: green;
+}
+
+#suitcase {
+  color: purple;
+}
+
+#uber {
+  font-size: 38px;
+}
+
+.mini {
+  font-size: 8px;
+  color: teal;
+}
+
+button {
+  padding: 18px;
+  background-color: green;
+  color: white;
+}
+
+button:hover {
+  background-color: white;
+  color: green;
+}
+
+#red {
+  padding: 18px;
+  background-color: red;
+  color: white;
+}
+
+#red:hover {
+  background-color: white;
+  color: red;
+}
+
+a:link {
+  color: green;
+}
+
+a:visited {
+  color: orange;
+}
+
+/* mouse over link */
+a:hover {
+  color: red;
+}
+
+/* selected link */
+a:active {
+  color: yellow;
+}
+
+#input-btn:hover {
+  font-size: 38px;
+}
+
+.big-text {
+  font-weight: bold;
+  font-size: 48px;
+  color: green;
+  padding: 16px;
+  font-size: 72px;
+  color: purple;
+}
+
+p {
+  color: green;
+}
+
+/*  */
+
+/* target all <p> tags within a <div> and make the text red */
+div p {
+  color: #000fff;
+}
+
+#different p {
+  color: gold;
+}
+
+/* target all <div> and <p> tags on the page and make their text blue */
+div,
+p {
+  color: blue;
+}
+
+ul li p span {
+  color: pink;
+}
+
+span {
+  border: 1px solid black;
+}
+
+div table {
+  background-color: paleturquoise;
+  display: none;
+}
+
+#first {
+  background-color: cadetblue;
+}
+
+#dotted * {
+  border: 4px solid green;
+  margin: 50px;
+}
+
+/*  */
+.container {
+  background-color: teal;
+}
+.box {
+  height: 100px;
+  width: 100px;
+  background-color: black;
+  color: white;
+  padding: 100px;
+  border: 9px solid white;
+  margin: 75px;
+  display: inline-block;
+}
+
+#uno {
+  
+}
+
+#one {
+  position: relative;
+  left: 300px;
+  margin-left: 300px;
+}
+
+h6 {
+  margin-bottom: 0;
+  margin-top: 125px;
+  color: red;
+}
+
+#two {
+  position: relative;
+  top: 45px;
+  left: 300px;
+}
+
+#three {
+  position: fixed;
+  bottom: 500px;
+}
+
+#four {
+  width: 100%;
+  position: absolute;
+  margin-top: 100px;
+}
+
+#a {
+  background-color: thistle;
+  height: 50px;
+  width: 20%;
+}
+
+#b {
+  background-color: thistle;
+  height: 50px;
+  width: 40%;
+}
+
+#c {
+  background-color: thistle;
+  height: 50px;
+  width: 70%;
+}
+
+#d {
+  background-color: thistle;
+  height: 50px;
+  width: 90%;
+}
+
+#five {
+  border-radius: 50%;
+  position: relative;
+  margin-top: 100px;
+}
+
+p.dotted {
+  border-style: dotted;
+}
+p.dashed {
+  border-style: dashed;
+}
+p.solid {
+  border-style: solid;
+}
+p.double {
+  border-style: double;
+}
+p.groove {
+  border-style: groove;
+}
+p.ridge {
+  border-style: ridge;
+}
+p.inset {
+  border-style: inset;
+}
+p.outset {
+  border-style: outset;
+}
+p.none {
+  border-style: none;
+}
+p.hidden {
+  border-style: hidden;
+}
+p.mix {
+  border-style: dotted dashed solid double;
+}
+
+#flag {
+  border-radius: 90%;
+  border: 2px;
+  background-color: tomato;
+  height: 200px;
+  width: 200px;
+}
+
+
+/*  */
+
+img.block-image {
+  display: block;
+}
+
+li.inline-list {
+  display: inline;
+}
+
+div.hidden-div{
+  display: block;
+}
+
+img.invisible-image{
+	visibility: hidden;
+}

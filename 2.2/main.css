@@ -1,0 +1,270 @@
+/* hamburger menu */
+header {
+  position: fixed;
+  background: #fff;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  height: 60px;
+  border-bottom: 4px solid green;
+}
+
+nav {
+  float: right;
+  padding: 5px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  float: left;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+#menu-icon {
+  display: hidden;
+  width: 40px;
+  height: 40px;
+  background: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTk7z6qSJdV8wmm0xwR4nrK5OPwhOfXJPqzrIG3ynOlOoGHyc4PSyrvpQ)
+    center;
+  background-size: contain;
+}
+
+/*=====CSS for Dropdown Menus=====*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a,
+.dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover,
+.dropdown:hover .dropbtn {
+  background-color: #0088ce;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/* dropdown - end */
+
+.font-one {
+  font-family: "Amatic SC", cursive;
+  font-size: 30px;
+}
+
+.blue {
+  height: 600px;
+  background-color: #0088ce;
+}
+
+body {
+  padding-bottom: 600px;
+}
+
+.mytext {
+  border: 2px solid palevioletred;
+}
+
+.border {
+  border: 6px solid darkmagenta;
+  height: 200px;
+  background-color: paleturquoise;
+}
+
+/* FLEXBOX */
+.flex-container {
+  display: flex;
+  background-color: DodgerBlue;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 600px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.flex-container div {
+  background-color: peru;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  height: 100px;
+  width: 100px;
+  align-self: flex-start;
+}
+
+#orange {
+    background-color: orange;
+    height: 75px;
+}
+
+#purple {
+    background-color: purple;
+}
+
+#green {
+    background-color: forestgreen;
+    height: 175px;
+}
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 767px) {
+  .mytext {
+    color: green;
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  /*Make the text red on large devices*/
+  .mytext {
+    color: red;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  /* any css styling */
+}
+
+/* STYLING FOR BOXES */
+/*CSS styles for mobile*/
+@media only screen and (max-width: 480px) {
+  .boxes {
+    width: 100%;
+    height: 200px;
+    background-color: red;
+    text-align: center;
+    color: white;
+  }
+}
+
+/*CSS styles for tablets*/
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  .boxes {
+    width: 50%;
+    height: 200px;
+    background-color: yellow;
+    display: inline-block;
+    float: left;
+    border: 4px solid white;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  h2 {
+    color: white;
+    background-color: darkolivegreen;
+  }
+}
+
+/*CSS styles for large screens*/
+@media only screen and (min-width: 769px) {
+  .boxes {
+    width: 25%;
+    height: 200px;
+    background-color: green;
+    display: inline-block;
+    /* float: left; */
+    border: 4px solid white;
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+  }
+}
+
+/* MEDIA QUERIES FOR HAMBURGER MENU */
+/*MEDIA QUERY*/
+@media only screen and (max-width: 768px) {
+  header {
+    position: absolute;
+    border-bottom: 4px solid red;
+  }
+  a,
+  a:active,
+  a:visited {
+    color: white;
+  }
+
+  #menu-icon {
+    display: inline-block;
+  }
+
+  nav ul,
+  nav:active ul {
+    display: none;
+    position: absolute;
+    background: #fff;
+    right: 0;
+    border: 5px solid #000;
+    width: 100%;
+  }
+
+  nav li:last-of-type {
+    border-bottom: 0px;
+  }
+
+  nav ul li {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 20px 0 20px 0;
+    background-color: red;
+    border-bottom: 1px solid #fff;
+  }
+
+  /*This makes sure the nav menu opens up */
+  nav:hover ul {
+    display: block;
+  }
+}
