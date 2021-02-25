@@ -16,3 +16,4 @@
 - option/alt + z : toggle word wrap in VSCode
 - control + ` : open terminal in VSCode
 - control + tab : change through your open tabs in VSCode (I think this also works in chrome)
+- node -v : checks the node version (to see if you have it) in the terminal!

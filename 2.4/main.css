@@ -1,0 +1,84 @@
+body {
+  background-color: #fff3f0;
+  padding-bottom: 600px;
+}
+
+* {
+  font-family: "DotGothic16";
+  /* text-align: center; */
+}
+
+/* adding background colors to see the bootstrap grid easier */
+.pink {
+  background-color: magenta;
+  border: 4px solid magenta;
+}
+
+.purple {
+  background-color: mediumslateblue;
+  border: 4px solid mediumslateblue;
+}
+
+/* adding flex to the parent bootstrap div that's containing the bootstrap card */
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-my-style {
+  background-color: mediumvioletred;
+  padding-top: 50px;
+}
+
+.btn-my-style:hover {
+  background-color: darkorchid;
+  padding-top: 30px;
+}
+
+.orange {
+
+  background-color: orange;
+  border: 3px solid olive;
+}
+
+header {
+  padding: 150px;
+  background-color: #24242e;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+/* 
+.green-text{
+  color: green;
+} */
+
+.blue {
+  height: 100px;
+  border: 1px solid black;
+  background-color: lightskyblue;
+}
+section {
+  display: flex;
+  justify-content: center;
+  padding: 60px 0;
+}
+
+.first {
+  border: 4px solid blue;
+  /* height: 50px */
+}
+
+.second {
+  border: 4px solid green;
+  /* height: 50px */
+}
+
+.nav
+
+.nested{
+  border: 3px solid black;
+  /* height: 200px; */
+}

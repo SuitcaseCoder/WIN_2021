@@ -216,8 +216,8 @@
 
 // IF STATEMENT
 // Simple if statement
-let x = true; //boolean
-console.log(typeof x);
+// let x = true; //boolean
+// console.log(typeof x);
 
 // if (something in here is TRUE) then {
 //     execute the code that's inside these curly brackets.
@@ -476,15 +476,48 @@ console.log(typeof x);
 //     // or x++
 // }
 
-let paper = 2;
-while(paper <= 10) {
-    paper = paper + 1;
-    console.log(paper);
-    // or x +=1
-    // or x++
-}
+// ---- QUICK REVIEW ----
+// 18 == "18" // true
+// 18 === "18" // false
+
+// student = true;
+// if(student == true){
+//     // execute any code  
+//     console.log('you have hw today') ; 
+// } 
+
+// students = ['mary', 'thomas', 'frank','sue','grant'];
+// // looping through a set data
+// for(let i = 0; i <= students.length; i++){
+//     // execute any code
+//     // applied to EACH ITEM individually 
+//     // ${any variable goes inside of this}
+//     console.log(` ${students[i]}  you get 5 extra points today!`);
+// }
+
+// ---- END QUICK REVIEW ----
+
+// for(let i = 0; i <=10; i++){
+//     console.log(`num + 5:   ${i + 5}`)
+// }
+
+
+// make sure you have a stopping point for while loops
+// let paper = 3;
+// while(paper <= 10) {
+//     paper = paper + 1;
+//     console.log(booleans);
+//     // or paper +=1
+//     // or paper++
+// }
 
 // DO WHILE
+// let paper = 11;
+// do{
+//     paper = paper +1;
+//     console.log(paper);
+// } while(paper <=10)
+
 // let x = 10;
 // do {
 //      x +=1
@@ -502,6 +535,8 @@ while(paper <= 10) {
 // 	console.log('after break'); //never happens
 // }
 
+// console.log('outside of loop');
+
 // for(let i = 0; i < 10; i++) {
 // 	console.log(i);
 // 	console.log('before continue'); // will print 10 times
@@ -511,18 +546,22 @@ while(paper <= 10) {
 // }
 
 // SWITCH STATEMENTS
-// let myNumber = 3;
+// let myNumber = 1;
 // switch(myNumber) {
-// 	case 3:
+// 	case 9:
 // 		console.log('three')
 // 	case 1:
 // 		console.log(1);
-// 		//break;
-// 	case 2:
-// 		console.log(2);
+// 		// break;
+// 	case 3:
+// 		console.log(3);
 // 		break;
 // 	default:
 // 		console.log('default')
+// }
+
+// if(myNumber == 3){
+//     console.log('three');
 // }
 
 // let y = 10;
@@ -545,10 +584,14 @@ while(paper <= 10) {
 // }
 // console.log(test); //this is dangerous!
 
+// if(test == true){
+//     console.log(test + ' is true');
+// }
+
 // LET
 // let test = true;
 // if(test){
-//   let test = false; //this is a completely new variable that only exists in this scope
+//   let test = true; //this is a completely new variable that only exists in this scope
 //   console.log(test); //console: false
 // }
 // console.log(test); //console: true
@@ -569,6 +612,22 @@ while(paper <= 10) {
 //   console.log(test); // false
 // }
 // console.log(test);
+
+// var x = 0;
+// for(let i = 0; i<=10; i++){
+//     x= x + 1;
+//     // console.log(x)
+// }
+
+// console.log(x);
+
+// for(let i = 0; i<=10; i++){
+//     x= x + 1;
+//     // console.log(x)
+// }
+
+// console.log(x);
+
 
 // VAR VS LET
 // let
