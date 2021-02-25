@@ -1,0 +1,15 @@
+* {
+  font-family: "DotGothic16";
+  margin: auto 0;
+}
+
+header {
+    padding: 150px;
+    background-color: #24242e;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
