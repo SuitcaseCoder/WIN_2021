@@ -8,6 +8,22 @@ body {
   /* text-align: center; */
 }
 
+.banner {
+  background: url("avi-richards-Z3ownETsdNQ-unsplash.jpg");
+  min-height: 400px;
+  background-size: cover;
+  background-position: center;
+}
+
+.red {
+  background-color: red;;
+}
+/* .override {
+  margin: 200px;
+  padding-left: 50px;
+  position: absolute;
+} */
+
 /* adding background colors to see the bootstrap grid easier */
 .pink {
   background-color: magenta;
@@ -35,8 +51,20 @@ body {
   padding-top: 30px;
 }
 
-.orange {
+/* .small {
 
+} */
+
+.big .small{
+  color: green;
+}
+
+.black{
+  background-color: black;
+  color: white;
+}
+
+.orange {
   background-color: orange;
   border: 3px solid olive;
 }
@@ -76,9 +104,7 @@ section {
   /* height: 50px */
 }
 
-.nav
-
-.nested{
+.nested {
   border: 3px solid black;
   /* height: 200px; */
 }

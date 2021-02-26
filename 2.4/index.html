@@ -55,7 +55,7 @@
 </nav>
 
 <!-- bootstrap navbar -->
-<nav class="navbar navbar-expand-lg">
+<nav class="navbar navbar-expand-lg navbar-container">
   <a class="navbar-brand" href="#">Navbar w/ text</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -79,8 +79,24 @@
 </nav>
 
 <!-- bootstrap banner -->
-<div class="jumbotron-fluid text-center">
+<div class="jumbotron-fluid text-center banner">
   <h1 class="animated fadeInDown"> Good Coffee Co.</h1>
+</div>
+
+<div class="black">
+  <h1>BANNER WITHOUT JUMBOTRON BOOTSTRAP</h1>
+</div>
+
+<div class="jumbotron-fluid red">
+  <h1>BANNER WITH JUMBOTRON FLUID</h1>
+</div>
+
+<div class="container black">
+  <h1>CONTAINER CLASS</h1>
+</div>
+
+<div class="jumbotron red">
+  <h1>BANNER WITHout  JUMBOTRON FLUID</h1>
 </div>
 
     <header>
@@ -88,6 +104,18 @@
     </header>
 
     <p class="green-text">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+
+    <!--  -->
+    <section>
+      <div class="container-fluid mission">
+        <div class="row">
+          <h3> Here at Good Coffee Co we are passionate about serving the best coffee you'll ever taste.
+          <br> Our staff are self-described coffee-nerds with impeccable technique.
+          <br> Stop by today and experience the Good Coffee difference. </h3>
+        </div> 
+      </div>
+    </section>
+
 
     <section>
     <!-- container > row(s) > column(s) -->
@@ -149,7 +177,7 @@
           <div class="blue col-md-1">hello world</div>
         </div>
         <div class="row pink one">
-          <div class="blue col-md-1">hello world</div>
+          <div class="col-md-1 blue">hello world</div>
           <div class="blue col-md-1">hello world</div>
           <div class="blue col-md-1">hello world</div>
           <div class="blue col-md-1">hello world</div>
@@ -174,13 +202,37 @@
           <div class="blue col-md-1">hello world</div>
           <div class="blue col-md-1">hello world</div>
         </div>
+        <div class="row">
+          <div class="blue col-xs-1">XS</div>
+          <div class="blue col-xs-1">XS</div><div class="blue col-xs-1">XS</div><div class="blue col-xs-1">XS</div><div class="blue col-xs-1">XS</div><div class="blue col-xs-1">XS</div><div class="blue col-xs-1">XS</div><div class="blue col-xs-1">XS</div><div class="blue col-xs-1">XS</div><div class="blue col-xs-1">XS</div><div class="blue col-xs-1">XS</div><div class="blue col-xs-1">XS</div>
+          <div class="blue col-xs-1">XS</div>
+          <div class="blue col-xs-1">XS</div>
+          <div class="blue col-xs-1">XS</div>
+          <div class="blue col-xs-1">XS</div>
+
+        </div>
+        <div class="row">
+          <div class="blue col-lg-1">LG</div>
+          <div class="blue col-md-1">LG</div>
+          <div class="blue col-sm-1">LG</div>
+          <div class="blue col-xs-1">LG</div>
+          <div class="blue col-lg-1">LG</div>
+          <div class="blue col-lg-1">LG</div>
+          <div class="blue col-lg-1">LG</div>
+          <div class="blue col-lg-1">LG</div>
+          <div class="blue col-lg-1">LG</div>
+          <div class="blue col-lg-1">LG</div>
+          <div class="blue col-lg-1">LG</div>
+          <div class="blue col-lg-1">LG</div>
+     
+      </div>
 
         
 
         <!-- card without the bootstrap  -->
         <div class="row one">
           <!-- <div class="col-md-2"></div> -->
-          <img src="airplane-seats.jpg" height="450px" class="col-md-5">
+          <img src="airplane-seats.jpg" height="450px" class="col-md-5 img-fluid">
           <!-- <div class="col-md-2"></div> -->
         </div>
       </div>
@@ -243,7 +295,7 @@
     <section>
       <div class="container">
         <div class="row">
-          <img src="airplane-seats.jpg" class="col-md-1" width="5000px">
+          <img src="airplane-seats.jpg" class="col-md-1 img-fluid" >
           <img src="airplane-seats.jpg" class="col-md-1">
           <img src="airplane-seats.jpg" class="col-md-1">
           <img src="airplane-seats.jpg" class="col-md-1">
@@ -251,7 +303,7 @@
           <img src="airplane-seats.jpg" class="col-md-1">
           <img src="airplane-seats.jpg" class="col-md-1">
           <img src="airplane-seats.jpg" class="col-md-1">
-          <img src="airplane-seats.jpg" class="col-md-4">
+          <img src="airplane-seats.jpg" class="col-md-1">
         </div>
       </div>
     </section>
@@ -310,10 +362,37 @@
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus expedita cupiditate assumenda modi ipsam eligendi, ipsa eos illum praesentium dignissimos ratione fuga quibusdam impedit quaerat qui animi repellendus dolore earum.</p>
             </div>
           </div>
+          <div class="col-md-6">
+            <div class="embed-fluid">
+              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/XL4TK7sE1i4?start=1364" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+          
         </div>
       </div>
     </section>
 
-    <script src="index.js"></script>
+    <!-- embedded video bootstrap -->
+    <!-- <div class="embed-fluid embed-responsive-16by9">
+      <iframe src="https://www.youtube.com/embed/ZfW-TU7RSXo" class="embed-responsive-item">
+      </iframe>
+
+      <iframe src="" frameborder="0"></iframe>
+    </div> -->
+
+    <div class="embed-fluid">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/XL4TK7sE1i4?start=1364" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+
+  <iframe src="https://youtu.be/XL4TK7sE1i4" frameborder="0"></iframe>
+
+  <iframe src="sample.pdf" frameborder="0"></iframe>
+
+  <div class="big">
+    <p class="small">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus doloribus perferendis consequatur ipsam natus nemo at quae aut quasi quam! Ipsum esse iusto veniam reprehenderit est praesentium eveniet debitis provident.</p>
+  </div>
+
+   
+  <script src="index.js"></script>
 </body>
 </html>
