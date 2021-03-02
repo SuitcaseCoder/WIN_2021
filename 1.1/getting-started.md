@@ -1,5 +1,13 @@
 # INTRO TO PROGRAMMING
 
+## Check Out Some of my stuff :) :
+[Suitcase Coder: The Podcast](https://anchor.fm/suitcase-coder)
+[Suitcase Coder: Yotube Channel](https://www.youtube.com/c/suitcasecoder)
+Follow me on social: 
+  - [Instagram](https://www.instagram.com/suitcasecoder/)
+  - [Twitter](https://twitter.com/CoderSuitcase)
+  - [TikTok](https://www.tiktok.com/@suitcasecoder?lang=en)
+
 ## Getting Started - Bootcamp Resources
 
 - #### Podcast Recommendation: [Three Things I Wish I did Before Starting my Coding Bootcamp](https://anchor.fm/suitcase-coder/episodes/06-Three-Things-I-Wish-I-Did-Before-Starting-My-Coding-Bootcamp-ebjsnc)
@@ -24,12 +32,19 @@
 - [Eloquent Javascript: Functions](https://eloquentjavascript.net/03_functions.html)
 - [w3resource Javascript practice](https://www.w3resource.com/javascript-exercises/javascript-functions-exercises.php)
 - This Keyword:
+  - [this MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
   - [JavaScript this Keyword(video)](https://www.youtube.com/watch?v=gvicrj31JOM)
   - [JavaScript this keyword explained in 3 minutes](https://www.youtube.com/watch?v=Pi3QC_fVaD0)
   - [The JavaScript `this` Keyword + 5 Key Binding Rules Explained for JS Beginners](https://www.freecodecamp.org/news/javascript-this-keyword-binding-rules/)
+  - [How to understand the keyword this and context in JavaScript](https://www.freecodecamp.org/news/how-to-understand-the-keyword-this-and-context-in-javascript-cd624c6b74b8/)
+  - [Understanding Javascript ‘this’ keyword (Context)](https://towardsdatascience.com/javascript-context-this-keyword-9a78a19d5786)
 - Hoisting, Scope, Closures:
   - [JavaScript Hoisting](https://www.javascripttutorial.net/javascript-hoisting/)
   - [The Ultimate Guide to execution contexts, hoisting, scopes, and closures](https://www.youtube.com/watch?v=Nt-qa_LlUH0&t=193s)
+- ES6 arrow functions
+  - [When (and why) you should use ES6 arrow functions — and when you shouldn’t](https://www.freecodecamp.org/news/when-and-why-you-should-use-es6-arrow-functions-and-when-you-shouldnt-3d851d7f0b26/)
+  - [JS Arrow Function - W3Schools](https://www.w3schools.com/js/js_arrow_function.asp)
+  - [Arrow Function Expressions - MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 
 ## Short Keys
 
