@@ -371,59 +371,59 @@
 // // CHALLENGE THREE SOLUTION
 // // 'slideshow' object comes from the last slide in week 3 day 2's slidees.
 
-// CHALLENGE FOUR SOLUTION
+// //CHALLENGE FOUR SOLUTION
 
-// var show = {
-// 	photList: ['an array'],
-// 	current: 0, //number,
-// 	nextPh: function() {}, //function, --> if/else statement
-// 	prevPh: function(){}, //function, --> if/else statement
-// 	currPh: function() {}, //fx--> return
-// 	playIn: null, //null 
-// 	play: function(){}, //function --> setInterval() // assigning context (this)
-// 	paus: function(){}, //function --> clearInterval() method
-// }
+var show = {
+	photList: ['an array'],
+	current: 0, //number,
+	nextPh: function() {}, //function, --> if/else statement
+	prevPh: function(){}, //function, --> if/else statement
+	currPh: function() {}, //fx--> return
+	playIn: null, //null 
+	play: function(){}, //function --> setInterval() // assigning context (this)
+	paus: function(){}, //function --> clearInterval() method
+}
 
-// var slideshow = {
-//     photoList: ['birds', 'puppies', 'rainbows', 'kittens', 'babies'],
+var slideshow = {
+    photoList: ['birds', 'puppies', 'rainbows', 'kittens', 'babies'],
 
-//     currentPhotoIndex: 0,
+    currentPhotoIndex: 0,
 
-//     nextPhoto: function() {
-//         if(this.currentPhotoIndex < this.photoList.length - 1) {
-//             this.currentPhotoIndex++;
-//             console.log('currentPhoto is: '+ this.photoList[this.currentPhotoIndex]);
-//         } else {
-//             console.log('End of Slideshow');
-//               this.pause();
-//         }
-//     },
+    nextPhoto: function() {
+        if(this.currentPhotoIndex < this.photoList.length - 1) {
+            this.currentPhotoIndex++;
+            console.log('currentPhoto is: '+ this.photoList[this.currentPhotoIndex]);
+        } else {
+            console.log('End of Slideshow');
+              this.pause();
+        }
+    },
 
-//     prevPhoto: function() {
-//         if(this.currentPhotoIndex > 0) {
-//             this.currentPhotoIndex--;
-//             console.log('currentPhoto is: ' + this.photoList[this.currentPhotoIndex]);
-//         } else {
-//             console.log('Start of Slideshow');
+    prevPhoto: function() {
+        if(this.currentPhotoIndex > 0) {
+            this.currentPhotoIndex--;
+            console.log('currentPhoto is: ' + this.photoList[this.currentPhotoIndex]);
+        } else {
+            console.log('Start of Slideshow');
 
-//         }
-//     },
+        }
+    },
 
-//     getCurrentPhoto: function() {
-//         return this.photoList[this.currentPhotoIndex];
-//     },
+    getCurrentPhoto: function() {
+        return this.photoList[this.currentPhotoIndex];
+    },
 
-//     playInterval: null,
+    playInterval: null,
 
-//     play: function() {
-//         var self = this;
-//         this.playInterval = setInterval(function(){self.nextPhoto()}, 2000)
-//     },
+    play: function() {
+        var self = this;
+        this.playInterval = setInterval(function(){self.nextPhoto()}, 2000)
+    },
 
-//     pause: function() {
-//         clearInterval(this.playInterval);
-//     }
+    pause: function() {
+        clearInterval(this.playInterval);
+    }
 
-// }
+}
 
 
