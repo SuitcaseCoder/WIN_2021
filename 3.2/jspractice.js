@@ -25,34 +25,56 @@ let js = {
 }
 
 // // PRACTICE ARRAY FUNCTIONS
-let animals = ['birds','dogs','cats','bears','lions', 'monkeys']; //array // [element, element, element, element]
+// let animals = ['birds','dogs','cats','bears','lions', 'monkeys']; //array // [element, element, element, element]
+// let movies = ['the shining', 'parent trap', 'crazy stupid love'];
 
-// I want to map through the animals list
-let sentences = animals.map(
-    // I'm gonna provide 'map' a function -telling it what to do at each iteration
-    // // that function is going to require a parameter (which you get to name) 
-    // // the argument being passed in will ALWAYS be whichever element in the array that the 'loop'/iteration is currently on
-    function(element){
+// // I want to map through the animals list
+// let sentences = animals.map(
+//     // I'm gonna provide 'map' a function -telling it what to do at each iteration
+//     // // that function is going to require a parameter (which you get to name) 
+//     // // the argument being passed in will ALWAYS be whichever element in the array that the 'loop'/iteration is currently on
+//     function(animal){
+//         // console.log(element);
+//         return `${element} are found at the zoo.`;
+//     }
+//     // map will take the result of the above function and create a new array with it.
+// );
 
-        // console.log(element);
-        return `${element} are found at the zoo.`;
-    }
-    // map will take the result of the above function and create a new array with it.
-);
+// console.log(sentences);
 
-console.log(sentences);
+
+// // ------
+// let animals = ['birds','dogs','cats','bears','lions', 'monkeys']; 
+// let movies = ['the shining', 'parent trap', 'crazy stupid love'];
+
+// // .map(function(){
+
+// // })
+// let sentences = animals.map(
+//     function(animal){
+//         return `${animal} are found at the zoo.`;
+//     }
+// );
+
+// console.log(sentences);
+// // ------
 
 // functions take in arguments but use parameters until that argument is passed in
-function myFunction(parameter, placeHolderName, willBeReplaced){
-    return `hello, ${parameter}, today we're talking about: ${placeHolderName}, ..... ${willBeReplaced}`;
-}
+// function myFunction(parameter, placeHolderName, willBeReplaced){
+//     return `hello, ${parameter}, today we're talking about: ${placeHolderName}, ..... ${willBeReplaced}`;
+// }
 
-console.log(myFunction('susan', 'javascript', 'ladeeda'));
-console.log(myFunction('tom', 'html', 'wooohoo'));
+// console.log(myFunction('susan', 'javascript', 'ladeeda'));
+// console.log(myFunction('tom', 'html', 'wooohoo'));
 
 
-function writeOnBoard(student){
-    // write on board
-}
+// function writeOnBoard(studentNumberTwo, studentNumberThree){
+//     // console.log(...rest);
+ 
+//     // write on board
+//     // table 1: studentNumberFour, studentNumber15
+//     // table 2: studentNumberTwo, studentNumberThree
+// }
 
-writeOnBoard('billy');
+// console.log(writeOnBoard(['billy','wilson', 'jake', 'tom', 'david', 'mike', 'gabby' , 'alex', 'john' ]));
+
