@@ -157,12 +157,15 @@ let box = document.getElementById('box');
 // 2. starting the method
 // 3. (A - the kind of event that we're listening for, B - the function that we want to run when that event happens)
 // // the param  being passed into the function is the event itself (whether it's a click, mouseover, keyboard up arrow)
-box.addEventListener('mouseover', function(somethingHappenedToThisElement){
-    // alert is a keyword in javascript 
-	alert('clicked!');
-})
+// box.addEventListener('click', function(event){
+//     console.log(event);
+//     // alert is a keyword in javascript 
+// 	alert('clicked!');
+// })
 
 // //Combine with DOM editing
 // el.addEventListener('mouseover', function(event){
 // 	el.innerHTML('over');
 // })
+
+
