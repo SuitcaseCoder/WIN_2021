@@ -28,6 +28,8 @@ Follow me on social:
   - [git - the simple guide](https://rogerdudler.github.io/git-guide/)
 
 - #### Javascript
+- General:
+  - [MDN Javascript Documentation - *EXCELLENT RESOURCE](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
 - Functions:
 - [Eloquent Javascript: Functions](https://eloquentjavascript.net/03_functions.html)
 - [w3resource Javascript practice](https://www.w3resource.com/javascript-exercises/javascript-functions-exercises.php)
