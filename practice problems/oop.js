@@ -1,3 +1,5 @@
+// // reference: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Test_your_skills:_Object-oriented_JavaScript
+
 // If you want to learn more about OOP check out this link first: 
 // (or any other resources you want for reviewing oop)
 // https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS
@@ -15,11 +17,27 @@
 
 
 // CONSTRUCTOR PROVIDED: 
-function Shape(name, sides, sideLength) {
-    this.name = name;
-    this.sides = sides;
-    this.sideLength = sideLength;
-  }
+// function Shape(name, sides, sideLength) {
+//     this.name = name;
+//     this.sides = sides;
+//     this.sideLength = sideLength;
+//   }
   
   // Write your code below here
       
+
+  // // one of the group's answer: 
+  function Shape(name, sides, sideLength) {
+    this.name = name;
+    this.sides = sides;
+    this.sideLength = sideLength;
+    this.perimeter;
+    this.calcPerimeter = function(){
+        this.perimeter = this.sides * this.sideLength;
+        return this.perimeter;
+    };
+};
+var square = new Shape("square", 4, 5);
+var triangle = new Shape("triangle", 3, 5);
+console.log(square);
+console.log(triangle);

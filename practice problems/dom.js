@@ -1,3 +1,5 @@
+// reference: https://www.theodinproject.com/courses/web-development-101/lessons/dom-manipulation
+
 // **
 // Add the following HTML code to your HTML file - don't forget to link your js!
 // ----- html start here
