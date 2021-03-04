@@ -152,7 +152,7 @@
 // let bod = document.querySelector('body').append(newEl);
 // // newEl.append() = 'this is my new element';
 
-let box = document.getElementById('box');
+// let box = document.getElementById('box');
 // 1: element that's listening 
 // 2. starting the method
 // 3. (A - the kind of event that we're listening for, B - the function that we want to run when that event happens)
@@ -169,3 +169,21 @@ let box = document.getElementById('box');
 // })
 
 
+// document.querySelector('.outer').addEventListener('click', function(e){
+//     // e represents the event (element that has been clicked)
+// console.log(e.target, e.currentTarget);
+// //inner, outer
+// })
+
+// document.querySelector('img').addEventListener('click', function(e){
+//     console.log('clicked img');
+// })
+
+// .querySelector('img') //any img tag
+// .querySelector('.img') //the first element with a class of "img"
+// .querySelector('#img') //the one element with id="img"
+// // return entire element
+
+// getElementbyTagName('img');
+// getElementsbyClassName('img') // returns array gets all
+// getElementbyId('img') // returns one element
