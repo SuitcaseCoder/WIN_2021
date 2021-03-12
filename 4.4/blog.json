@@ -1,0 +1,12 @@
+{
+    "blogOne": { 
+        "title": "my first blog",
+        "author": "author123",
+        "blogPost": "lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt enim, sequi consequuntur voluptatum quis aperiam dolores modi facere illum odit. Accusantium, autem error. Dolore possimus at veritatis delectus facere laudantium!"
+    },    "blogTwo": { 
+        "title": "my first blog",
+        "author": "author123",
+        "blogPost": "lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt enim, sequi consequuntur voluptatum quis aperiam dolores modi facere illum odit. Accusantium, autem error. Dolore possimus at veritatis delectus facere laudantium!"
+    }
+
+}

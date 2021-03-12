@@ -30,74 +30,74 @@
 //     return num1 * num2;
 // }
 
-// console.log(multiplyTwoNumbers(6,10));
+console.log(multiplyTwoNumbers(6,10));
 
-// //
-// function subtractTwoNumbers(a, b){
-//     let result = a - b;
-//     return result * 5; // 120
-// }
-// console.log(multiplyTwoNumbers(6,10));
+//
+function subtractTwoNumbers(a, b){
+    let result = a - b;
+    return result * 5; // 120
+}
+console.log(multiplyTwoNumbers(6,10));
 
-// // 
-// function multiplyTwoNumbers(num1, num2){
-//     console.log('seeing what values of num1 & num2 are: ' + num1,num2); //just for us devs to know what's going on
-//     // num1 = 6;
-//     console.log('1: ' + num1);
-//     // num2 =10;
-//     console.log('2: ' + num2);
-//     return num1 * num2;
-// }
+// 
+function multiplyTwoNumbers(num1, num2){
+    console.log('seeing what values of num1 & num2 are: ' + num1,num2); //just for us devs to know what's going on
+    // num1 = 6;
+    console.log('1: ' + num1);
+    // num2 =10;
+    console.log('2: ' + num2);
+    return num1 * num2;
+}
 
-// console.log(multiplyTwoNumbers(3,9));
+console.log(multiplyTwoNumbers(3,9));
 
-// // 
-// function multiplyTwoNumbers(num1 = 1, num2 =2){
-//     console.log('num1 & num2 ' + num1 + num2); //just for us devs to know what's going on
-//     num1 = "six";
-//     // console.log('1: ' + num1);
-//     num2 ="ten";
-//     // console.log('2: ' + num2);
-//     return num1 * num2;
-// }
+// 
+function multiplyTwoNumbers(num1 = 1, num2 =2){
+    console.log('num1 & num2 ' + num1 + num2); //just for us devs to know what's going on
+    num1 = "six";
+    // console.log('1: ' + num1);
+    num2 ="ten";
+    // console.log('2: ' + num2);
+    return num1 * num2;
+}
 
-// console.log(multiplyTwoNumbers(7,24));
+console.log(multiplyTwoNumbers(7,24));
 
-// // 
-// function doMath(a){
-//     console.log(a);
-//     if(a !== "NaN"){
-//         return a * 10;
-//     } else {
-//         return 'doesn\'t work';
-//     }
-// }
+// 
+function doMath(a){
+    console.log(a);
+    if(a !== "NaN"){
+        return a * 10;
+    } else {
+        return 'doesn\'t work';
+    }
+}
 
-// doMath(prompt('what\'s your favorite number'));
+doMath(prompt('what\'s your favorite number'));
 
-// // 
-// var cookie = "oreo";
+// 
+var cookie = "oreo";
 
-// function favoriteCookie(snack){
-//     return `My favorite cookie is: ${snack} `;
-// }
+function favoriteCookie(snack){
+    return `My favorite cookie is: ${snack} `;
+}
 
-// console.log(favoriteCookie(cookie)); // oreo
+console.log(favoriteCookie(cookie)); // oreo
 
-// function redefineCookie(snack){
-//     snack = 'choco chip'
-//     return `cookie is now: ${snack} `;
-// }
+function redefineCookie(snack){
+    snack = 'choco chip'
+    return `cookie is now: ${snack} `;
+}
 
-// console.log(redefineCookie(cookie)) //choco chip
-// console.log('cookie value after redefine: ' + cookie);
-// // so global variables can be passed in as arguments to functions and then within the function, they can be redefined (reassigned) and within that function they will have the value of however you reassigned the paramter (which originally was the global variable) but if you reference the global variable outside of the function (even after its run) the value of the global variable will not change
+console.log(redefineCookie(cookie)) //choco chip
+console.log('cookie value after redefine: ' + cookie);
+// so global variables can be passed in as arguments to functions and then within the function, they can be redefined (reassigned) and within that function they will have the value of however you reassigned the paramter (which originally was the global variable) but if you reference the global variable outside of the function (even after its run) the value of the global variable will not change
 
-// // nested function
+// nested function
 
-// function add(num1, num2){
-//     let addition = num1 + num2
-//     console.log(addition); // 7
+function add(num1, num2){
+    let addition = num1 + num2
+    console.log(addition); // 7
 
 //         function multiply(test){
 //             // console.log(addition);//7
