@@ -5,7 +5,7 @@ import WelcomeCL from './WelcomeCL';
 
 function App() {
   return (
-    <div className="App">
+    <div>
               <WelcomeFN />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
