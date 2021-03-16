@@ -5,7 +5,7 @@ import WelcomeCL from './WelcomeCL';
 
 function App() {
   return (
-    <div>
+    <div className="App">
               <WelcomeFN />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -13,6 +13,7 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <p>LAURA RUIZ-ROEHRS. THIS IS MY FIRST REACT APP. HOW EXCITING!</p>
+        <WelcomeFN />
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -22,9 +23,11 @@ function App() {
           Learn React
         </a>
       </header>
+      <WelcomeFN />
       <div>
         <WelcomeCL />
       </div>
+      <WelcomeFN />
     </div>
   );
 }

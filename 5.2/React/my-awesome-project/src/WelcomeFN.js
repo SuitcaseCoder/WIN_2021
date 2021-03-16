@@ -1,4 +1,5 @@
 import React from 'react';	
+import './css/WelcomeFN.css';
 
 // // FUNCTIONAL COMPONENT
 // Defining a component using a Javascript function "Functional Component"
@@ -9,7 +10,7 @@ function WelcomeFN() {
     }
 
     return (
-        <div>
+        <div className="orange">
             <input type="text"></input>
             <input type="text" />
             <button onClick={doSomething()}></button>
