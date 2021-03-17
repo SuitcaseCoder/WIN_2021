@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-// import App from './App'; <-- you can also delete this since we're not using it
+// //you can also delete this since we're not using it
+import App from './App';  
 import Board from './components/Board';
 import reportWebVitals from './reportWebVitals';
+import '.'
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <App /> <-- delete this because we no longer need to display it */}
+    <App /> 
     <Board />
   </React.StrictMode>,
   document.getElementById('root')
