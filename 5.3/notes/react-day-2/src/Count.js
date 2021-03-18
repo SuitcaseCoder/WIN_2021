@@ -14,6 +14,7 @@ const Count=()=>{
   }
 
   return(
+    // // JSX
     <div>
       <div>{count}</div>
       <button onClick={handleClick}>

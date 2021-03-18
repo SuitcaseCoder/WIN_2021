@@ -3,10 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Count from './Count';
 import reportWebVitals from './reportWebVitals';
+import CountUseEffect from './CountUseEffect';
+import JSXEventListener from './JSXEventListeners';
 
 ReactDOM.render(
   <React.StrictMode>
     <Count />
+    <CountUseEffect />
+    <JSXEventListener />
   </React.StrictMode>,
   document.getElementById('root')
 );
