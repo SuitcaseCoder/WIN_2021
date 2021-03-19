@@ -4,9 +4,9 @@ function App() {
   return (
     <div className="App">
       <div>
-        <Welcome name="Sara" />
+        <Welcome name="Sarah" />
         <Welcome name="Cahal" />
-        <Welcome name="Edite" />
+        <Welcome name="Edith" age="29" />
       </div>
     </div>
   );

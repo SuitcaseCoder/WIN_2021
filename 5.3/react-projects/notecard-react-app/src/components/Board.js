@@ -87,6 +87,7 @@ class Board extends Component {
   }
 
   // // render method - render what is returned (JSX) onto the browser
+  // // class component - requires render() if you want to render something to the react-dom
   render() {
     return (
       <div>

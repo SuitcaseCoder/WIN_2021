@@ -1,8 +1,9 @@
 import React from 'react';
 
+// // functional component - render() isn't required
 function Welcome(props) {
-    return <h1>Hello, {props.name}</h1>;
+    return <h1>Hello, {props.name} {props.age}</h1>;
   }
   
 
-  export default Welcome;
+export default Welcome;
