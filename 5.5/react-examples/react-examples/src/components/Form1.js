@@ -12,6 +12,8 @@ class Form1 extends React.Component{
   handleNameInput=(event)=>{
     this.setState({petName:event.target.value});
   }
+
+
   handleClick=()=>{
     let petObj = {petName:this.state.petName};
     this.setState({petList: [...this.state.petList, petObj], petName:""});

@@ -7,6 +7,7 @@ function WelcomeFN() {
 
     function doSomething(){
         console.log('hey there');
+        // this.setState(user: this.user.currentValue)
     }
 
     return (
@@ -14,7 +15,7 @@ function WelcomeFN() {
             <input type="text"></input>
             <input type="text" />
             <button onClick={doSomething()}></button>
-            <h1>Hello, Laura</h1>
+            <h1>Hello, {this.state.user}</h1>
             <p>it's nice to see you from the functional component.</p>
         </div>
     );
