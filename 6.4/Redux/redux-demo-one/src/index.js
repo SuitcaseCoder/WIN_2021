@@ -4,11 +4,17 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import { Provider } from 'react-redux';
+
 import StateCounter from "./components/StateCounter";
+import ReduxCounter from './components/ReduxCounter';
 
 ReactDOM.render(
   <React.StrictMode>
-    <StateCounter />
+    <Provider>
+      {/* <StateCounter /> */}
+      <ReduxCounter />
+    </Provider>
   </React.StrictMode>,
   document.getElementById('root')
 );

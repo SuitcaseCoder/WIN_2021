@@ -1,3 +1,4 @@
+// // counter with state
 import React from 'react';
 
 // // create a class component (because we're using state)
@@ -46,4 +47,5 @@ class StateCounter extends React.Component {
   }
 }
  
+// // exporting stateCounter component, to be used in other components when imported
 export default StateCounter;
