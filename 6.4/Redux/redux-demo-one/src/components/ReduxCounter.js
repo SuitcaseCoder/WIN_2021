@@ -4,6 +4,8 @@ import React from 'react';
 // // import connect - keyword in react-redux
 import { connect } from 'react-redux';
 
+
+
 // // create our class component
 class ReduxCounter extends React.Component {
 
@@ -12,11 +14,11 @@ class ReduxCounter extends React.Component {
     // // we will still have increment and decrement functions 
     increment = () => {
         // // we don't use setState to change state anymore, because state will be in our redux store
-        // fill in later
+        this.props.dispatch({ type: 'INCREMENT' });
       }
     
       decrement = () => {
-        // fill in later
+        this.props.dispatch({ type: 'DECREMENT' })
       }
 
       render() {
